@@ -57,9 +57,9 @@ function CTask(TASK_TEXT, PLACE, ID, IS_DONE) {
                 else {
                     // console.log('text is',text);
                     // console.log('this.text is',this.text);
-                    text = newTask;
-                    // this.text = newTask;
-                    textP.innerHTML = text;
+                    // text = newTask;
+                    this.text = newTask;
+                    textP.innerHTML = this.text ;
                     // console.log('CHANGED TASK');
                     // console.log(this,' text_',text);
                     main.saveState();
