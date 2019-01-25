@@ -25,7 +25,7 @@ function CTask(TASK_TEXT, PLACE, ID, IS_DONE) {
         isDoneCheckbox.checked = isDone;
         isDoneCheckbox.onclick = () => {
             this.isDone = isDoneCheckbox.checked;
-            isDone = isDoneCheckbox.checked;
+            // isDone = isDoneCheckbox.checked;
             // console.log('CHECKBOX PRESSED');
             // console.log(this,' isDone_',isDone);
             main.saveState();
